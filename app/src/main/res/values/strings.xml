@@ -1,0 +1,161 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Flash_Card</string>
+    <string name="action_settings">Settings</string>
+    <string name="fegato">Fegato</string>
+    <string name="esofago">Esofago</string>
+    <string name="stomaco">Stomaco</string>
+    <string name="search">Cerca</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Welcome to Flash Card App</string>
+    <string name="second_fragment_label">Diagnosis and treatments</string>
+    <string name="next">Next</string>
+    <string name="previous">Indietro</string>
+    <string name="therapy">Go to treatment</string>
+    <string name="prova">Prova</string>
+
+    <string name="titolo1">
+        COLELITIASI
+    </string>
+
+<!--    spazio &#160; -->
+    <string name="Colelitiasi">
+        &#8226; &lt;b&gt; Colica biliare &lt;/b&gt;: dolore in ipocondrio destro
+        &#160; che può irradiarsi al dorso e/o spalla
+        &#160; omolaterale &lt;br/&gt;
+        &#8226; &lt;b&gt;Nausea e vomito &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Febbre e brividi &lt;/b&gt; se colecistite sovrapposta &lt;br/&gt;
+    </string>
+
+    <string name="titolo2">
+        COLECISTITE ACUTA
+    </string>
+
+    <string name="Colecistite_acuta">
+        &#8226; &lt;b&gt; Segno di Murphy &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Dolore &lt;/b&gt; o &lt;b&gt; tensione &lt;/b&gt; nell\'ipocondrio destro &lt;br/&gt;
+        &#8226; &lt;b&gt;Febbre &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Massa palpabile &lt;/b&gt; nell\'ipocondrio destro &lt;br/&gt;
+    </string>
+
+    <string name="titolo3">
+        COLANGITE
+    </string>
+
+    <string name="Colangite">
+        &#8226; &lt;b&gt; Triade di Charcot:&lt;/b&gt; &lt;br/&gt;
+            &#160; &#183; Ittero &lt;br/&gt;
+            &#160; &#183; Febbre &lt;br/&gt;
+            &#160; &#183; Dolore addominale &lt;br/&gt;
+
+        &lt;hr/&gt;
+
+        &#8226; &lt;b&gt; Pentade di Reynolds:&lt;/b&gt; &lt;br/&gt;
+            &#160; &#183; Ittero &lt;br/&gt;
+            &#160; &#183; Febbre &lt;br/&gt;
+            &#160; &#183; Dolore addominale &lt;br/&gt;
+            &#160; &#183; Shock &lt;br/&gt;
+            &#160; &#183; Stato mentale alterato &lt;br/&gt;
+    </string>
+
+    <string name="titolo4">
+        VOMITO
+    </string>
+
+    <string name="Vomito">
+        &#8226; Valutare &lt;b&gt; frequenza &lt;/b&gt;, &lt;b&gt; durata &lt;/b&gt;, &lt;b&gt; volume &lt;/b&gt; e &lt;b&gt; colore &lt;/b&gt; (rosso, &lt;br/&gt;
+        &#160; verdastro biliare, giallo enterico, marrone fecaloide) &lt;br/&gt;
+        &#8226; &lt;b&gt; Nausea &lt;/b&gt;, &lt;b&gt; dolori addominali &lt;/b&gt;, &lt;b&gt; distensione addominale &lt;/b&gt;, &lt;br/&gt;
+        &#160; &lt;b&gt; ipertimpanismo &lt;/b&gt; &lt;br/&gt;
+        &#8226; Segni di &lt;b&gt; peritonismo &lt;/b&gt;, &lt;b&gt; peristalsi &lt;/b&gt; ipoattiva/abolita &lt;br/&gt;
+        &#160; o accentuata &lt;br/&gt;
+        &#8226; Segni di &lt;b&gt; disidratazione &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Ittero &lt;/b&gt; delle sclere o cutaneo &lt;br/&gt;
+        &#8226; &lt;b&gt; Cefalea &lt;b&gt; o &lt;b&gt; sintomi neurologici &lt;b&gt;&lt;br/&gt;
+    </string>
+
+    <string name="titolo5">
+        SINDROME DI MALLORY-WEISS
+    </string>
+
+    <string name="Sindrome_Mallory_Weiss">
+        &#8226; &lt;b&gt; Ematemesi &lt;/b&gt; (da rottura del plesso venoso &lt;br/&gt;
+        &#160; sottomucoso) &lt;br/&gt;
+        &#8226; &lt;b&gt; Dolore urente epigastico e/o retrosternale &lt;/b&gt; con &lt;br/&gt;
+        &#160; possibile irradiazione dorsale &lt;br/&gt;
+        &#8226; &lt;b&gt; Melena &lt;/b&gt; &lt;br&gt;
+        &#8226; &lt;b&gt; Feci picee &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Nausea &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Vomito &lt;/b&gt; &lt;br/&gt;
+    </string>
+
+    <string name="titolo6">
+        ROTTURA DELL\'ESOFAGO
+    </string>
+
+    <string name="Rottura_esofago">
+        &#8226; &lt;b&gt; Triade di Meckler: &lt;/b&gt; &lt;br/&gt;
+            &#160; &#183; Vomito &lt;br/&gt;
+            &#160; &#183; Dolore toracico &lt;br/&gt;
+            &#160; &#183; Enfisema sottocutaneo &lt;br/&gt;
+        &#8226; &lt;b&gt; Segno di Hamman: &lt;/b&gt; &lt;br/&gt;
+            &#160; &#183; Scricchiolio mediastinico &lt;br/&gt;
+            &#160; &#183; Suono crepitante sincrono con il &lt;br/&gt;
+            &#160; &#160; battito cardiaco &lt;br/&gt;
+        &#8226; &lt;b&gt; Febbre &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Dolore addominale &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Disfagia &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Ematemesi &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Dispnea &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Instabilità cardiovascolare &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Shock &lt;/b&gt; &lt;br/&gt;
+    </string>
+
+    <string name="titolo7">
+        EMORRAGIA DIGESTIVA
+    </string>
+
+    <string name="Emorragie_digestive">
+        &#8226; &lt;b&gt; Storia: &lt;/b&gt; &lt;br/&gt;
+            &#160; &#183; Quantità/qualità del sangue &lt;br/&gt;
+            &#160; &#183; Sintomi di anemia (astenia, dispnea, &lt;br/&gt;
+            &#160; &#160; dolore toracico) &lt;br/&gt;
+            &#160; &#183; Storia di epatopatia &lt;br/&gt;
+            &#160; &#183; Anamnesi farmacologica &lt;br/&gt;
+            &#160; &#183; Fumo/abuso di alcol &lt;br/&gt;
+            &#160; &#183; Coagulopatie &lt;br/&gt;
+            &#160; &#183; Sintomi costituzionali &lt;br/&gt;
+        &#8226; &lt;b&gt; EDS &lt;/b&gt; &lt;br/&gt;:
+            &#160; &#183; Ematemesi &lt;br/&gt;
+            &#160; &#183; Vomito caffeano &lt;br/&gt;
+            &#160; &#183; Melena &lt;br/&gt;
+        &#8226; &lt;b&gt; EDI &lt;/b&gt;: &lt;br/&gt;
+            &#160; &#183; Ematochezia &lt;br/&gt;
+        &#8226;&lt;b&gt; EO &lt;/b&gt;: &lt;br/&gt;
+            &#160; &#183; ABC &lt;br/&gt;
+            &#160; &#183; PV &lt;br/&gt;
+            &#160; &#183; Ispezione della cavità oro-nasale &lt;br/&gt;
+            &#160; &#183; EO dell\'addome &lt;br/&gt;
+            &#160; &#183; Esplorazione rettale &lt;br/&gt;
+        &#160; &lt;b&gt; NB &lt;/b&gt;: L\'ingestione di ferro può causare feci scure &lt;br/&gt;
+
+    </string>
+
+    <string name="diagnosi1">
+        Diagnosi 1
+    </string>
+
+    <string name="diagnosi2">
+        Diagnosi 2
+    </string>
+
+<!--    <string name="Colelitiasi_diagnosi">-->
+<!--        &#8226; &lt;b&gt; Diagnosi di laboratorio &lt;/b&gt; &lt;br/&gt;-->
+<!--        Se concomitante &lt;b&gt; colecistite: &lt;br/&gt;-->
+<!--        &#183;-->
+<!---->
+<!--        &#8226; &lt;b&gt; Diagnosi strumentale &lt;/b&gt; &lt;br/&gt;-->
+<!--    </string>-->
+
+</resources>

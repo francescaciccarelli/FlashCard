@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@color/cardview_dark_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".FirstFragment">
+
+<!--Legenda colori:
+    holo_blue_light = fegato
+    holo_green_light = esofago
+    holo_orange_dark = stomaco-->
+
+        <!-- Prima card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardFirst"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginBottom="4dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="@android:color/holo_blue_light"
+        >
+
+        <!-- Contenuto della prima card -->
+
+        <!-- Colelitiasi (fegato e vie biliari) -->
+        <TextView
+            android:id="@+id/colelitiasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/firstText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="50dp"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.cardview.widget.CardView>
+
+        <!-- Seconda card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardSecond"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginBottom="4dp"
+            app:cardBackgroundColor="@android:color/holo_blue_light">
+
+            <!-- Contenuto della seconda card -->
+
+            <!-- Colecistite acuta (fegato e vie biliari) -->
+            <TextView
+                android:id="@+id/colecistiteacuta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="16dp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/secondText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="50dp"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Terza card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardThird"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginBottom="4dp"
+        app:cardBackgroundColor="@android:color/holo_blue_light">
+
+        <!-- Contenuto della terza card -->
+
+        <!-- Colangite (vie biliari)-->
+        <TextView
+            android:id="@+id/colangite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/thirdText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+        <!-- Quarta card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardFourth"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginBottom="4dp"
+        app:cardBackgroundColor="@android:color/holo_red_light">
+
+        <!-- Contenuto della quarta card -->
+
+        <!-- Vomito -->
+        <TextView
+            android:id="@+id/vomito"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/fourthText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Quinta card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardFifth"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginBottom="4dp"
+        app:cardBackgroundColor="@android:color/holo_green_light">
+
+        <!-- Contenuto della quinta card -->
+
+        <!-- Sindrome di Mallory-Weiss -->
+        <TextView
+            android:id="@+id/malloryweiss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textSize="23sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/fifthText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Sesta card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardSixth"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        android:layout_marginBottom="4dp"
+        app:cardBackgroundColor="@android:color/holo_green_light">
+
+        <!-- Contenuto della sesta card -->
+
+        <!-- Rottura dell'esofago -->
+        <TextView
+            android:id="@+id/rotturaesofago"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/sixthText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="50dp"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.cardview.widget.CardView>
+
+        <!-- Settima card -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardSeventh"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="8dp"
+            android:layout_marginBottom="4dp"
+            app:cardBackgroundColor="@android:color/holo_orange_dark">
+
+            <!-- Contenuto della settima card -->
+
+            <!-- Emorragia digestiva -->
+            <TextView
+                android:id="@+id/emorragiadigestiva"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="16dp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/seventhText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="50dp"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
