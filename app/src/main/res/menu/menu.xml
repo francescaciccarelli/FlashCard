@@ -20,24 +20,24 @@
                 app:actionViewClass="androidx.appcompat.widget.SearchView" />
 
             <item
-                android:id="@+id/fegatomenu"
-                android:orderInCategory="100"
-                android:icon="@drawable/liver"
-                android:title="@string/fegato"
-                app:showAsAction="never" />
-
-            <item
-                android:id="@+id/esofagomenu"
+                android:id="@+id/patologiemenu"
                 android:orderInCategory="100"
                 android:icon="@drawable/esophagus"
-                android:title="@string/esofago"
+                android:title="@string/patologie"
                 app:showAsAction="never" />
 
             <item
-                android:id="@+id/stomacomenu"
+                android:id="@+id/sintomimenu"
                 android:orderInCategory="100"
-                android:icon="@drawable/stomach"
-                android:title="@string/stomaco"
+                android:icon="@drawable/sintomi"
+                android:title="@string/sintomi"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/cirrosimenu"
+                android:orderInCategory="100"
+                android:icon="@drawable/liver"
+                android:title="@string/cirrosi"
                 app:showAsAction="never" />
 
             <item

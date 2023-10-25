@@ -2,9 +2,9 @@
 
     <string name="app_name">Flash_Card</string>
     <string name="action_settings">Settings</string>
-    <string name="fegato">Fegato</string>
-    <string name="esofago">Esofago</string>
-    <string name="stomaco">Stomaco</string>
+    <string name="patologie">Patologie</string>
+    <string name="sintomi">Sintomi</string>
+    <string name="cirrosi">Cirrosi</string>
     <string name="search">Cerca</string>
 
     <!-- Strings used for fragments for navigation -->

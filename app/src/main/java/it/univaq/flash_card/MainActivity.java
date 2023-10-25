@@ -55,13 +55,13 @@ public class MainActivity extends AppCompatActivity {
         if (id == R.id.searchmenu) {
             return true;
         }
-        if (id == R.id.fegatomenu) {
+        if (id == R.id.patologiemenu) {
             return true;
         }
-        if (id == R.id.stomacomenu) {
+        if (id == R.id.sintomimenu) {
             return true;
         }
-        if (id == R.id.esofagomenu) {
+        if (id == R.id.cirrosimenu) {
             return true;
         }
 
