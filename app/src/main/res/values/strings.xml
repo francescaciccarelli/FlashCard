@@ -15,31 +15,15 @@
     <string name="prova">Prova</string>
 
     <string name="titolo1">
-        COLELITIASI
+        APPENDICITE ACUTA
     </string>
 
-<!--    spazio &#160; -->
-    <string name="Colelitiasi">
-        &#8226; &lt;b&gt; Colica biliare &lt;/b&gt;: dolore in ipocondrio destro
-        &#160; che può irradiarsi al dorso e/o spalla
-        &#160; omolaterale &lt;br/&gt;
-        &#8226; &lt;b&gt;Nausea e vomito &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Febbre e brividi &lt;/b&gt; se colecistite sovrapposta &lt;br/&gt;
+    <string name="Appendicite">
+
     </string>
 
     <string name="titolo2">
-        COLECISTITE ACUTA
-    </string>
-
-    <string name="Colecistite_acuta">
-        &#8226; &lt;b&gt; Segno di Murphy &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Dolore &lt;/b&gt; o &lt;b&gt; tensione &lt;/b&gt; nell\'ipocondrio destro &lt;br/&gt;
-        &#8226; &lt;b&gt;Febbre &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Massa palpabile &lt;/b&gt; nell\'ipocondrio destro &lt;br/&gt;
-    </string>
-
-    <string name="titolo3">
-        COLANGITE
+        COLANGITE ACUTA
     </string>
 
     <string name="Colangite">
@@ -58,60 +42,39 @@
             &#160; &#183; Stato mentale alterato &lt;br/&gt;
     </string>
 
-    <string name="titolo4">
-        VOMITO
+    <string name="titolo3">
+        COLECISTITE ACUTA
     </string>
 
-    <string name="Vomito">
-        &#8226; Valutare &lt;b&gt; frequenza &lt;/b&gt;, &lt;b&gt; durata &lt;/b&gt;, &lt;b&gt; volume &lt;/b&gt; e &lt;b&gt; colore &lt;/b&gt; (rosso, &lt;br/&gt;
-        &#160; verdastro biliare, giallo enterico, marrone fecaloide) &lt;br/&gt;
-        &#8226; &lt;b&gt; Nausea &lt;/b&gt;, &lt;b&gt; dolori addominali &lt;/b&gt;, &lt;b&gt; distensione addominale &lt;/b&gt;, &lt;br/&gt;
-        &#160; &lt;b&gt; ipertimpanismo &lt;/b&gt; &lt;br/&gt;
-        &#8226; Segni di &lt;b&gt; peritonismo &lt;/b&gt;, &lt;b&gt; peristalsi &lt;/b&gt; ipoattiva/abolita &lt;br/&gt;
-        &#160; o accentuata &lt;br/&gt;
-        &#8226; Segni di &lt;b&gt; disidratazione &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Ittero &lt;/b&gt; delle sclere o cutaneo &lt;br/&gt;
-        &#8226; &lt;b&gt; Cefalea &lt;b&gt; o &lt;b&gt; sintomi neurologici &lt;b&gt;&lt;br/&gt;
+    <string name="Colecistite_acuta">
+        &#8226; &lt;b&gt; Segno di Murphy &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Dolore &lt;/b&gt; o &lt;b&gt; tensione &lt;/b&gt; nell\'ipocondrio destro &lt;br/&gt;
+        &#8226; &lt;b&gt;Febbre &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Massa palpabile &lt;/b&gt; nell\'ipocondrio destro &lt;br/&gt;
+    </string>
+
+    <string name="titolo4">
+        COLELITIASI
+    </string>
+
+<!--    spazio &#160; -->
+    <string name="Colelitiasi">
+        &#8226; &lt;b&gt; Colica biliare &lt;/b&gt;: dolore in ipocondrio destro
+        &#160; che può irradiarsi al dorso e/o spalla
+        &#160; omolaterale &lt;br/&gt;
+        &#8226; &lt;b&gt;Nausea e vomito &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Febbre e brividi &lt;/b&gt; se colecistite sovrapposta &lt;br/&gt;
     </string>
 
     <string name="titolo5">
-        SINDROME DI MALLORY-WEISS
+        DIVERTICOLITE
     </string>
 
-    <string name="Sindrome_Mallory_Weiss">
-        &#8226; &lt;b&gt; Ematemesi &lt;/b&gt; (da rottura del plesso venoso &lt;br/&gt;
-        &#160; sottomucoso) &lt;br/&gt;
-        &#8226; &lt;b&gt; Dolore urente epigastico e/o retrosternale &lt;/b&gt; con &lt;br/&gt;
-        &#160; possibile irradiazione dorsale &lt;br/&gt;
-        &#8226; &lt;b&gt; Melena &lt;/b&gt; &lt;br&gt;
-        &#8226; &lt;b&gt; Feci picee &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Nausea &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Vomito &lt;/b&gt; &lt;br/&gt;
+    <string name="Diverticolite">
+
     </string>
 
     <string name="titolo6">
-        ROTTURA DELL\'ESOFAGO
-    </string>
-
-    <string name="Rottura_esofago">
-        &#8226; &lt;b&gt; Triade di Meckler: &lt;/b&gt; &lt;br/&gt;
-            &#160; &#183; Vomito &lt;br/&gt;
-            &#160; &#183; Dolore toracico &lt;br/&gt;
-            &#160; &#183; Enfisema sottocutaneo &lt;br/&gt;
-        &#8226; &lt;b&gt; Segno di Hamman: &lt;/b&gt; &lt;br/&gt;
-            &#160; &#183; Scricchiolio mediastinico &lt;br/&gt;
-            &#160; &#183; Suono crepitante sincrono con il &lt;br/&gt;
-            &#160; &#160; battito cardiaco &lt;br/&gt;
-        &#8226; &lt;b&gt; Febbre &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Dolore addominale &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Disfagia &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Ematemesi &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Dispnea &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Instabilità cardiovascolare &lt;/b&gt; &lt;br/&gt;
-        &#8226; &lt;b&gt; Shock &lt;/b&gt; &lt;br/&gt;
-    </string>
-
-    <string name="titolo7">
         EMORRAGIA DIGESTIVA
     </string>
 
@@ -141,20 +104,105 @@
 
     </string>
 
-    <string name="diagnosi1">
-        Diagnosi 1
+    <string name="titolo7">
+        ISCHEMIA MESENTERICA
     </string>
 
-    <string name="diagnosi2">
-        Diagnosi 2
+    <string name="titolo8">
+        MORBO DI CROHN
     </string>
 
-<!--    <string name="Colelitiasi_diagnosi">-->
-<!--        &#8226; &lt;b&gt; Diagnosi di laboratorio &lt;/b&gt; &lt;br/&gt;-->
-<!--        Se concomitante &lt;b&gt; colecistite: &lt;br/&gt;-->
-<!--        &#183;-->
-<!---->
-<!--        &#8226; &lt;b&gt; Diagnosi strumentale &lt;/b&gt; &lt;br/&gt;-->
-<!--    </string>-->
+    <string name="titolo9">
+        OCCLUSIONE INTESTINALE
+    </string>
+
+    <string name="titolo10">
+        PANCREATITE ACUTA
+    </string>
+
+    <string name="titolo11">
+        PERFORAZIONE GI
+    </string>
+
+    <string name="titolo12">
+        RETTOCOLITE ULCEROSA
+    </string>
+
+    <string name="titolo13">
+        ROTTURA DELL\'ESOFAGO
+    </string>
+
+    <string name="Rottura_esofago">
+        &#8226; &lt;b&gt; Triade di Meckler: &lt;/b&gt; &lt;br/&gt;
+            &#160; &#183; Vomito &lt;br/&gt;
+            &#160; &#183; Dolore toracico &lt;br/&gt;
+            &#160; &#183; Enfisema sottocutaneo &lt;br/&gt;
+        &#8226; &lt;b&gt; Segno di Hamman: &lt;/b&gt; &lt;br/&gt;
+            &#160; &#183; Scricchiolio mediastinico &lt;br/&gt;
+            &#160; &#183; Suono crepitante sincrono con il &lt;br/&gt;
+            &#160; &#160; battito cardiaco &lt;br/&gt;
+        &#8226; &lt;b&gt; Febbre &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Dolore addominale &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Disfagia &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Ematemesi &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Dispnea &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Instabilità cardiovascolare &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Shock &lt;/b&gt; &lt;br/&gt;
+    </string>
+
+    <string name="titolo14">
+        SINDROME DI MALLORY-WEISS
+    </string>
+
+    <string name="Sindrome_Mallory_Weiss">
+        &#8226; &lt;b&gt; Ematemesi &lt;/b&gt; (da rottura del plesso venoso &lt;br/&gt;
+        &#160; sottomucoso) &lt;br/&gt;
+        &#8226; &lt;b&gt; Dolore urente epigastico e/o retrosternale &lt;/b&gt; con &lt;br/&gt;
+        &#160; possibile irradiazione dorsale &lt;br/&gt;
+        &#8226; &lt;b&gt; Melena &lt;/b&gt; &lt;br&gt;
+        &#8226; &lt;b&gt; Feci picee &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Nausea &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Vomito &lt;/b&gt; &lt;br/&gt;
+    </string>
+
+    <string name="titolo15">
+        VOMITO
+    </string>
+
+    <string name="Vomito">
+        &#8226; Valutare &lt;b&gt; frequenza &lt;/b&gt;, &lt;b&gt; durata &lt;/b&gt;, &lt;b&gt; volume &lt;/b&gt; e &lt;b&gt; colore &lt;/b&gt; (rosso, &lt;br/&gt;
+        &#160; verdastro biliare, giallo enterico, marrone fecaloide) &lt;br/&gt;
+        &#8226; &lt;b&gt; Nausea &lt;/b&gt;, &lt;b&gt; dolori addominali &lt;/b&gt;, &lt;b&gt; distensione addominale &lt;/b&gt;, &lt;br/&gt;
+        &#160; &lt;b&gt; ipertimpanismo &lt;/b&gt; &lt;br/&gt;
+        &#8226; Segni di &lt;b&gt; peritonismo &lt;/b&gt;, &lt;b&gt; peristalsi &lt;/b&gt; ipoattiva/abolita &lt;br/&gt;
+        &#160; o accentuata &lt;br/&gt;
+        &#8226; Segni di &lt;b&gt; disidratazione &lt;/b&gt; &lt;br/&gt;
+        &#8226; &lt;b&gt; Ittero &lt;/b&gt; delle sclere o cutaneo &lt;br/&gt;
+        &#8226; &lt;b&gt; Cefalea &lt;b&gt; o &lt;b&gt; sintomi neurologici &lt;b&gt;&lt;br/&gt;
+    </string>
+
+    <string name="titolo16">
+        DIARREA BAMBINO E ADULTO
+    </string>
+
+    <string name="titolo17">
+        DISFAGIA OROFARINGEA
+    </string>
+
+    <string name="titolo18">
+        DISFAGIA ESOFAGEA
+    </string>
+
+    <string name="titolo19">
+        PERITONITE BATTERICA SPONTANEA
+    </string>
+
+    <string name="titolo20">
+        ENCEFALOPATIA
+    </string>
+
+    <string name="titolo21">
+        ASCITE
+    </string>
 
 </resources>
