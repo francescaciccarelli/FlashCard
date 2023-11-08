@@ -24,11 +24,16 @@ public class SecondFragment extends Fragment {
         binding = FragmentSecondBinding.inflate(inflater, container, false);
 
         Bundle bundle = getArguments();
-        Integer card = bundle.getInt("card");
-        System.out.println(card);
+        if (bundle != null) {
+            Integer card = bundle.getInt("card");
+            if (card == 1) {
+                Utils.setHtmlTextView(binding.card1Diagnosis, getString(R.string.Appendicite));
+            } if (card == 2) {
+                Utils.setHtmlTextView(binding.card2Diagnosis, getString(R.string.Colangite));
+            }
+        }
 
         return binding.getRoot();
-
     }
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
@@ -41,12 +46,11 @@ public class SecondFragment extends Fragment {
                         .navigate(R.id.action_SecondFragment_to_FirstFragment);
             }
         });
+
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
-    }
-
-}
+    }}

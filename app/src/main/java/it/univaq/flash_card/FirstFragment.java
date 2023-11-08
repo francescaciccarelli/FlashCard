@@ -55,6 +55,9 @@ public class FirstFragment extends Fragment {
         binding.cardFirst.setOnClickListener(view1 -> {
             Bundle bundle = new Bundle();
             bundle.putInt("card", 1);
+            SecondFragment secondFragment = new SecondFragment();
+            secondFragment.setArguments(bundle);
+
             NavHostFragment.findNavController(FirstFragment.this)
                     .navigate(R.id.action_FirstFragment_to_SecondFragment, bundle);
         });
